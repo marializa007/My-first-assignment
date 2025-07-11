@@ -17,7 +17,11 @@ nav{
     background-color:  #4E47FF;
     padding: 10px 20px;
     color: white;
+
+    border: 1px solid white;
+    border-radius: 10px;
 }
+
 .banner{
     display: flex;
     align-items: center;
@@ -71,8 +75,7 @@ header{
 }
 .icon-star{ 
    display: flex;
-    font-size: small;
-   
+    font-size: small; 
     margin: 0 150px;
     padding: 10px 20px;
     text-align: left;
@@ -96,4 +99,14 @@ header{
     background-color: white;
   padding: 20px;
 
+}
+.ready{
+    text-align: center;
+  background-color: white;
+    padding: 20px;
+    margin: 0 150px;
+}
+.img{
+    border: 1px solid white;
+    border-radius: 20px;
 }
