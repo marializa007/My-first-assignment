@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: rgb(247, 244, 240);
+}
 /* nav styles */
 nav{
     display: flex;
@@ -70,12 +72,15 @@ header{
 .icon-star{ 
    display: flex;
     font-size: small;
-    background-color: white;
+   
     margin: 0 150px;
     padding: 10px 20px;
-    text-align: center;
+    text-align: left;
     gap: 30px;
     justify-content: space-between;
+}
+.this{
+    color: rgb(82, 81, 81);
 }
 .name{
     display: flex;
@@ -83,4 +88,12 @@ header{
 .what{
    text-align: center;
 }
+.reviewer{
+    color: rgb(133, 133, 133);
+}
+.box{
+    width: 100%;
+    background-color: white;
+  padding: 20px;
 
+}
