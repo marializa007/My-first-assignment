@@ -67,3 +67,20 @@ header{
 .pclass{
     color: rgb(95, 94, 94);
 }
+.icon-star{ 
+   display: flex;
+    font-size: small;
+    background-color: white;
+    margin: 0 150px;
+    padding: 10px 20px;
+    text-align: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+.name{
+    display: flex;
+}
+.what{
+   text-align: center;
+}
+
