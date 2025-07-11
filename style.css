@@ -32,13 +32,38 @@ nav{
 header{
     background: url('./Assets/Hero-bg.png');
 }
-.action{
+ .action{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 150px;
-}
+} 
 .explore{
     color: #2e2d38;
     opacity: .5;
+}
+.joined{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background{
+  background-color:#4d47ff17;
+    margin:  0 150px;
+    padding: 50px;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 100px;
+  
+}
+.hcolor{
+    color: blue;
+    text-wrap: 30px;
+}
+.pclass{
+    color: rgb(95, 94, 94);
 }
