@@ -126,3 +126,24 @@ header{
     gap: 10px;
  
 }
+.logo{
+    color: blue;
+    font-size: 50px;
+    margin: 0;
+
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 150px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.color{
+    color: rgb(105, 105, 105);
+}
